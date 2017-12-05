@@ -1,18 +1,36 @@
 # vue-overflow-scroll
 
-> A Vue.js project
+Scroll automatically when the element is overflow.
 
-## Build Setup
+support `vue 2.0`
 
-``` bash
-# install dependencies
-npm install
+## Installation
 
-# serve with hot reload at localhost:8080
-npm run dev
+### NPM(recommended)
 
-# build for production with minification
-npm run build
+`npm install vue-overflow-scroll -D`
+
+<br>
+
+## Get Started
+
+```js
+// ES6
+import Vue from 'vue'
+import VueOverflowScroll from 'vue-overflow-scroll'
+
+Vue.use(VueOverflowScroll)
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Directive v-overflow-scroll then can be used in your Component.
+
+```html
+<template>
+  <div v-overflow-scroll="true" scroll-to="last-child">
+    ...
+  </div>
+<template>
+...
+```
+
+then when the div can scroll-y,then it can scroll to last child.
