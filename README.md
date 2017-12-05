@@ -4,6 +4,8 @@ Scroll automatically when the element is overflow.
 
 support `vue 2.0`
 
+live [demo](https://jsfiddle.net/JefferyLiang/jcg9e5rx/)
+
 ## Installation
 
 ### NPM(recommended)
