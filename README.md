@@ -36,3 +36,29 @@ Directive v-overflow-scroll then can be used in your Component.
 ```
 
 then when the div can scroll-y,then it can scroll to last child.
+
+the `scroll-to` can scroll to other child like this option: `scroll-to="first-child"`、`scroll-to="4"`
+
+---
+
+if you want to scroll to the child dom by id, you can use `scroll-to-id="child-dom-id"`
+
+```html
+<template>
+  <div v-overflow-scroll="true" scroll-to-id="child-dom-id">
+    ...
+  </div>
+</template>
+```
+
+---
+
+if you wan to scroll to the child dom by class name, you can use `scroll-to-class="child-dom-class-name"`
+
+```html
+<template>
+  <div v-overflow-scroll="true" scroll-to-class="child-dom-class">
+    ...
+  </div>
+</template>
+```
